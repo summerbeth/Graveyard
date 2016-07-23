@@ -96,14 +96,14 @@
             direction="alternate"
             repeat="indefinite"></a-animation>
       </a-entity>
-<!-- <a-entity
+ <a-entity
          obj-model="obj: #statue-obj; mtl: #statue-mtl;"
          scale="1 1 1"
          rotation="0 0 0"
          position="0 0 6"
          look-at="[camera]">
        
-      </a-entity> -->
+      </a-entity>
  <a-entity
          obj-model="obj: #angel-obj; mtl: #angel-mtl;"
          scale="1 1 1"

@@ -1,0 +1,25 @@
+
+
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="angel-mtl" src="/obj/angel-decimated.mtl"></a-asset-item>
+        <a-asset-item id="angel-obj" src="/obj/angel-decimated.obj"></a-asset-item>
+      </a-assets>
+
+
+      <a-entity
+         obj-model="obj: #angel-obj; mtl: #angel-mtl;"
+         scale="1 1 1"
+         rotation="0 0 0"
+         position="3 0 3"
+         look-at="[camera]">
+         <a-animation
+            attribute="position"
+            dur="10000"
+            from="3 0 3"
+            to="3 0 13"
+            direction="alternate"
+            repeat="indefinite"></a-animation>
+      </a-entity>
+
+      
